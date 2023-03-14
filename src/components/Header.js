@@ -8,10 +8,6 @@ const Header = ({title}) => {
   )
 }
 
-Header.defaultProps = {
-    title: 'Dubble Dose'
-}
-
 Header.propTypes = {
     title: PropTypes.string.isRequired,
 }
