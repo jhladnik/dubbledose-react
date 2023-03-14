@@ -2,8 +2,9 @@ import PropTypes from 'prop-types'
 
 const Header = ({title}) => {
   return (
-   <header>
+   <header className='content'>
         <h1>{title}</h1>
+        <p>Keep track of your doses of medications and supplements for you or your loved ones. Whether it is for an illness or daily health.</p>
    </header>
   )
 }
